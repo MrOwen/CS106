@@ -2,7 +2,7 @@
 # Owen Kuemerle
 # CS 106 - Introduction to Programming
 # Programming assignment 1
-# Calculate the distance to a lightning strike based on time
+# Celcius to fahrenhit converter
 #####
 # Read user input and put into the c_temp variable
 c_temp = input("What is the temperature in celcius?: ")
