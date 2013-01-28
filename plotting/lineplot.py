@@ -16,5 +16,9 @@ pl.xlabel("X-axis")
 pl.ylabel("Y-axis")
 pl.title("An interesting graph")
 
+# Set axis limits for the graph
+pl.xlim(0, 6)
+pl.ylim(0, 30)
+
 # Show the plot on the screen
 pl.show()
