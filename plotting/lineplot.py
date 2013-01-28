@@ -11,5 +11,10 @@ y = [1, 4, 9, 16, 25]
 # Use pylab to plot x and y points
 pl.plot(x, y, 'b*')
 
+# Set the labels and title for the graph
+pl.xlabel("X-axis")
+pl.ylabel("Y-axis")
+pl.title("An interesting graph")
+
 # Show the plot on the screen
 pl.show()
