@@ -9,7 +9,7 @@ x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
 
 # Use pylab to plot x and y points
-pl.plot(x, y, 'm-.')
+pl.plot(x, y, 'b*')
 
 # Show the plot on the screen
 pl.show()
