@@ -1,4 +1,4 @@
-#lineplot.py
+#multilineplot.py
 import numpy as np
 import pylab as pl
 
