@@ -13,9 +13,15 @@ y = [1, 4, 9, 16, 25]
 y2 = [2, 4, 8, 12, 16]
 
 # Use pylab to plot x and y points
-pl.plot(x, y, 'ro')
+p1 = pl.plot(x, y, 'ro')
 # Secondary plot
-pl.plot(x2, y2, '*')
+p2 = pl.plot(x2, y2, '*')
+
+# Add a plot legend
+plots = (p1, p2)
+# Lables for legend
+labels = ('Results of y=x^2', 'Results of y=2x')
+pl.legend(plots, labels, 'best', numpoints=1)
 
 # Set the labels and title for the graph
 pl.xlabel("X-axis")
