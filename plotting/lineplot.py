@@ -9,7 +9,7 @@ x = [1, 2, 3, 4, 5]
 y = [1, 4, 9, 16, 25]
 
 # Use pylab to plot x and y points
-pl.plot(x, y, 'b*')
+pl.plot(x, y, 'ro')
 
 # Set the labels and title for the graph
 pl.xlabel("X-axis")
