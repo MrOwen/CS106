@@ -1,7 +1,7 @@
 #####
 # Owen Kuemerle
 # CS 106 - Introduction to Programming
-# Programming assignment 1
+# Programming assignment 2
 # Calculate the required length of a ladder
 #####
 # The math library is required for this one

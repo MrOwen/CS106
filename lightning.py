@@ -1,7 +1,7 @@
 #####
 # Owen Kuemerle
 # CS 106 - Introduction to Programming
-# Programming assignment 1
+# Programming assignment 2
 # Calculate the distance to a lightning strike based on time
 #####
 # Read user input and put into the time variable

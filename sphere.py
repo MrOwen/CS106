@@ -1,7 +1,7 @@
 #####
 # Owen Kuemerle
 # CS 106 - Introduction to Programming
-# Programming assignment 1
+# Programming assignment 2
 # Calculate the volume and surface area of a sphere given the radius
 #####
 # Inport the Python math library
