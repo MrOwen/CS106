@@ -21,5 +21,5 @@ secondary = [78.4, 94.2, 68.3, 79.2, 73.9,
 pl.boxplot(primary, vert=False)
 
 #Label the x-axis
-pl.xticks([1], ["Primary"])
+pl.yticks([1], ["Primary"])
 pl.show()
