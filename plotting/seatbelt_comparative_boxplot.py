@@ -21,7 +21,7 @@ secondary = [78.4, 94.2, 68.3, 79.2, 73.9,
 data = [primary, secondary]
 
 # Plot to combined data sets
-pl.boxplot(data)
+pl.boxplot(data, vert=False)
 
 # Label the x-axis
 pl.xticks([1, 2], ["Primary", "Secondary"])
