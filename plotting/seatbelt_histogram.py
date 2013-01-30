@@ -18,6 +18,8 @@ secondary = [78.4, 94.2, 68.3, 79.2, 73.9,
              84.9, 73.3]
 
 # Make a single histogram
-pl.hist(secondary, bins = 5)
+pl.hist(secondary, normed = True)
+
+pl.ylim(0.0, 0.10)
 
 pl.show()
