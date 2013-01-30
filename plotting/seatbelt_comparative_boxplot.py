@@ -24,5 +24,5 @@ data = [primary, secondary]
 pl.boxplot(data, vert=False)
 
 # Label the x-axis
-pl.xticks([1, 2], ["Primary", "Secondary"])
+pl.yticks([1, 2], ["Primary", "Secondary"])
 pl.show()
