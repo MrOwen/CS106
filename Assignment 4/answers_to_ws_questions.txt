@@ -1,0 +1,7 @@
+3. It appears that there is a small amount of pollution upstream, then recedes mid-way
+   and then increase significantly at the end of the stream
+6. There are no significant difference between pollution on wet and dry days although
+   the marginal increase in fecal coliform on wet days does show the effect of rainwater on
+   the new sewage system
+7. Based on the graphs, it would seem the amount of fecal coliform remains realtively low
+   (on average) despite the outliers
