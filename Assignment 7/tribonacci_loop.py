@@ -1,11 +1,13 @@
-prompt = "Enter a natural number greater than 1: "
-limit = eval(raw_input(prompt))
-(first, second, third, result, counter) = 0, 1, 1, 0, 4
-while result < limit:
-    result = first + second + third
-    first = second
-    second = third
-    third = result
-    counter += 1
-print "Tribonacci value: " + str(result)
-print "Tribonacci index of that value: " + str(counter)
+import math
+prompt = "Enter a number: "
+input = eval(raw_input(prompt))
+incrementer = 2
+while float(input) % incrementer != 0 and (2 <= incrementer <= math.sqrt(input)):
+    print "incrementer is: ", incrementer
+    incrementer += 1
+if input % input == 0:
+    print "Number is divisible by ", incrementer
+else:
+    print "Number is prime"
+print math.sqrt(5)
+print float(29) % 6
